@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffe4ec, #fbcfe8, #f9a8d4);
+    color: #4a044e;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 12px 25px;
+
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(14px);
+
+    border-radius: 60px;
+
+    box-shadow: 0 10px 30px rgba(219, 39, 119, 0.18);
+
+    position: sticky;
+    top: 15px;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+    color: #db2777;
+    letter-spacing: 2px;
+}
+
+.nav nav a {
+    text-decoration: none;
+    color: #4a044e;
+    font-weight: 500;
+
+    padding: 8px 14px;
+    margin: 0 6px;
+
+    border-radius: 25px;
+
+    transition: 0.3s ease;
+}
+
+.nav nav a:hover {
+    background: #db2777;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(219, 39, 119, 0.3);
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #db2777;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 22px;
+    background: #db2777;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #be185d;
+    transform: scale(1.05);
+}
+
+.profile {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #f472b6;
+    box-shadow: 0 0 20px rgba(219, 39, 119, 0.4);
+}
+
+.card {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 10px 25px rgba(219, 39, 119, 0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    color: #db2777;
+    margin-bottom: 10px;
+}
+
+.skills span {
+    display: inline-block;
+    background: #f472b6;
+    color: white;
+    padding: 8px 14px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.project {
+    background: #fff0f6;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #9d174d;
+}
